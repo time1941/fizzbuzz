@@ -6,4 +6,20 @@ describe("Test Fizzbuzz", () => {
         const result = Fizzbuzz.say(1);
         expect(result).toEqual(1); //Assert Function
     });
+    test("Test 30 expect Fizzbuzz", () => {
+        const result = Fizzbuzz.say(30);
+        expect(result).toEqual("Fizzbuzz"); //Assert Function
+    });
+    test("Test 3 expect Fizzbuzz", () => {
+        const result = Fizzbuzz.say(3);
+        expect(result).toEqual("Fizz"); //Assert Function
+    });
+    test("Test 5 expect Fizzbuzz", () => {
+        const result = Fizzbuzz.say(5);
+        expect(result).toEqual("Buzz"); //Assert Function
+    });
+    test("Test 12 expect Fizzbuzz", () => {
+        const result = Fizzbuzz.say(12);
+        expect(result).toEqual("Fizz"); //Assert Function
+    });
 });
